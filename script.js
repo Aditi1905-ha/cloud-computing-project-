@@ -1,4 +1,4 @@
-function sendText() {
-    let text = document.getElementById("input").value;
+function send() {
+    let text = document.getElementById("text").value;
     console.log(text);
 }
