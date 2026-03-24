@@ -12,7 +12,7 @@ function send() {
     .then(data => {
         document.getElementById("result").innerHTML += 
             "<p><b>You:</b> " + text + "</p>" +
-            "<p><b>Bot:</b> " + data.response + "</p>";
+            "<p><b>Bot:</b> Mood: " + data.mood + "<br>Suggestion: " + data.suggestion + "</p>";
     })
     .catch(error => console.log(error));
 }
